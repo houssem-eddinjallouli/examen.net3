@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TE.Core.Services/1.0.0": {
+        "dependencies": {
+          "TE.Core.Domain": "1.0.0",
+          "TE.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "TE.Core.Services.dll": {}
+        }
+      },
+      "TE.Core.Domain/1.0.0": {
+        "runtime": {
+          "TE.Core.Domain.dll": {}
+        }
+      },
+      "TE.Core.Interfaces/1.0.0": {
+        "runtime": {
+          "TE.Core.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TE.Core.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TE.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TE.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
