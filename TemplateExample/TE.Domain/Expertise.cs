@@ -12,7 +12,9 @@ namespace TE.Core.Domain
         [DataType(DataType.Date,ErrorMessage ="message")]
         public DateTime DateExpertise { get; set; }
         [DataType(DataType.MultilineText)]
-        [Range(3,100)]
+        //[Range(3,100)] range nesta3mlouha kif tkoun int
+        [MaxLength(100)]
+        [MinLength(3)]
         public string AvisTechnique { get; set; }
         public double MontantEstime { get; set; }
         public double Duree { get; set; }
